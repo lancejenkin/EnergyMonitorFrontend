@@ -22,7 +22,7 @@
 
     $.each(names, function(i, name) {
 
-        $.getJSON('http://localhost:5000/usage?phase='+ name.toLowerCase() ,	function(data) {
+        $.getJSON(url + 'usage?phase='+ name.toLowerCase() ,	function(data) {
 
             seriesOptions[i] = {
                 name: name,
@@ -57,7 +57,7 @@
 
                                 if(series[i].data.length > 0){
                                     var last_epoch = series[i].data[series[i].data.length - 1].x;
-                                    $.getJSON('http://localhost:5000/usage?phase='+ name.toLowerCase()  + '&start=' +
+                                    $.getJSON(url + 'usage?phase='+ name.toLowerCase()  + '&start=' +
                                         last_epoch,	function(data) {
                                         if(data.length > 0){
                                             for(var data_index =0; data_index < data.length; data_index++){
