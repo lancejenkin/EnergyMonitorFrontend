@@ -67,7 +67,7 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script>
-    var url = {{ url_for("index") }};
+    var url = {{ request.script_root|tojson|safe }};
 </script>
 
 <script src="{{ url_for('static', filename='js/jquery-1.10.2.js') }}"></script>
