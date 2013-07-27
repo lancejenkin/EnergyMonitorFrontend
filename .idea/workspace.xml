@@ -5,7 +5,7 @@
     <ignored path="EnergyMonitorFrontEnd.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/base.html" changelist="7e653605-fab7-49bb-a82e-2ee016692fbc" time="1374926509732" ignored="false" />
-    <file path="/EnergyMonitorFrontEnd.py" changelist="7e653605-fab7-49bb-a82e-2ee016692fbc" time="1374923775892" ignored="false" />
+    <file path="/EnergyMonitorFrontEnd.py" changelist="7e653605-fab7-49bb-a82e-2ee016692fbc" time="1374926985206" ignored="false" />
     <file path="/energymonitor.js" changelist="7e653605-fab7-49bb-a82e-2ee016692fbc" time="1374926477598" ignored="false" />
     <file path="/energymonitor.css" changelist="7e653605-fab7-49bb-a82e-2ee016692fbc" time="1374841373588" ignored="false" />
     <file path="/Dummy.txt" changelist="7e653605-fab7-49bb-a82e-2ee016692fbc" time="1374920967104" ignored="false" />
@@ -73,10 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EnergyMonitorFrontEnd.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EnergyMonitorFrontEnd.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EnergyMonitorFrontEnd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="41" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+            <state line="22" column="38" selection-start="529" selection-end="529" vertical-scroll-proportion="0.75301206">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -104,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="30" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.7457627">
+            <state line="60" column="30" selection-start="1701" selection-end="1701" vertical-scroll-proportion="-9.166667">
               <folding />
             </state>
           </provider>
@@ -144,11 +144,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/EnergyMonitorFrontEnd.py" />
         <option value="$PROJECT_DIR$/UsageData.py" />
         <option value="$PROJECT_DIR$/static/css/energymonitor.css" />
         <option value="$PROJECT_DIR$/static/js/energymonitor.js" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/EnergyMonitorFrontEnd.py" />
       </list>
     </option>
   </component>
@@ -516,15 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EnergyMonitorFrontEnd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="41" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UsageData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="40" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0">
@@ -552,8 +543,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="30" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.7457627">
+        <state line="60" column="30" selection-start="1701" selection-end="1701" vertical-scroll-proportion="-9.166667">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnergyMonitorFrontEnd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="38" selection-start="529" selection-end="529" vertical-scroll-proportion="0.75301206">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
