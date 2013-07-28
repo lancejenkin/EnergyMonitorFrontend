@@ -11,7 +11,7 @@
     <file path="/Dummy.txt" changelist="7e653605-fab7-49bb-a82e-2ee016692fbc" time="1374997311817" ignored="false" />
     <file path="$PROJECT_DIR$/../GlobalAcoustics/EnergyMonitorBackend/EnergyMonitorBackend.py" changelist="7e653605-fab7-49bb-a82e-2ee016692fbc" time="1375004553407" ignored="false" />
     <file path="/EnergyMonitorBackend.py" changelist="7e653605-fab7-49bb-a82e-2ee016692fbc" time="1375004551740" ignored="false" />
-    <file path="/UsageData.py" changelist="7e653605-fab7-49bb-a82e-2ee016692fbc" time="1375005891551" ignored="false" />
+    <file path="/UsageData.py" changelist="7e653605-fab7-49bb-a82e-2ee016692fbc" time="1375006227538" ignored="false" />
     <file path="/config.py" changelist="7e653605-fab7-49bb-a82e-2ee016692fbc" time="1374922338070" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +87,7 @@
       <file leaf-file-name="UsageData.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UsageData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="81" selection-end="81" vertical-scroll-proportion="0.18072289">
+            <state line="13" column="69" selection-start="420" selection-end="420" vertical-scroll-proportion="0.5873494">
               <folding>
                 <element signature="e#27#41#0" expanded="true" />
               </folding>
@@ -551,7 +551,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UsageData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="81" selection-end="81" vertical-scroll-proportion="0.18072289">
+        <state line="13" column="69" selection-start="420" selection-end="420" vertical-scroll-proportion="0.5873494">
           <folding>
             <element signature="e#27#41#0" expanded="true" />
           </folding>

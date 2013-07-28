@@ -11,7 +11,7 @@ def get_usage(phase, start_time, end_time):
     # Get all the usage points for the specified phases between the
     # start and end UTC timestamps.
     # Timestamps are given in seconds since epoch
-    db = sqlite3.connect(config.DB_FILE)
+    db = pymysql.connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASS, MYSQL_DB)
 
     cursor = db.cursor()
     if start_time == end_time == 0:
