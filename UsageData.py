@@ -1,7 +1,11 @@
 __author__ = 'lancejenkin'
-import sqlite3
+import pymysql
 import config
 
+MYSQL_HOST = "localhost
+MYSQL_USER = "lance"
+MYSQL_PASS = "lance"
+MYSQL_DB = "energy_monitor"
 
 def get_usage(phase, start_time, end_time):
     # Get all the usage points for the specified phases between the
@@ -11,17 +15,17 @@ def get_usage(phase, start_time, end_time):
 
     cursor = db.cursor()
     if start_time == end_time == 0:
-        cursor.execute("SELECT utc_timestamp, energy_usage "
-                       "FROM state_readings WHERE meter_box = ?", (phase,))
+        cursor.execute("SELECT `utc_timestamp`, `energy_usage` "
+                       "FROM state_readings WHERE `meter_box` = ?", (phase,))
     elif end_time == 0:
         # Only start time set, get all records since start
-        cursor.execute("SELECT utc_timestamp, energy_usage FROM state_readings "
-                       "WHERE meter_box = ? AND "
-                       "utc_timestamp > ?", (phase, start_time))
+        cursor.execute("SELECT `utc_timestamp`, `energy_usage` FROM `state_readings` "
+                       "WHERE `meter_box` = ? AND "
+                       "`utc_timestamp` > ?", (phase, start_time))
     else:
-        cursor.execute("SELECT utc_timestamp, energy_usage FROM state_readings "
-                "WHERE meter_box = ? AND "
-                "utc_timestamp BETWEEN ? AND ?", (phase, start_time, end_time))
+        cursor.execute("SELECT `utc_timestamp`, `energy_usage` FROM `state_readings` "
+                "WHERE `meter_box` = ? AND "
+                "`utc_timestamp` BETWEEN ? AND ?", (phase, start_time, end_time))
 
     results = cursor.fetchall()
 
