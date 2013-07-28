@@ -2,7 +2,7 @@ __author__ = 'lancejenkin'
 import pymysql
 import config
 
-MYSQL_HOST = "localhost
+MYSQL_HOST = "localhost"
 MYSQL_USER = "lance"
 MYSQL_PASS = "lance"
 MYSQL_DB = "energy_monitor"
