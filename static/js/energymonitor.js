@@ -99,22 +99,22 @@
 
             rangeSelector: {
                 buttons: [{
-                    count: 5,
-                    type: 'minute',
-                    text: '5M'
-                },{
                     count: 1,
                     type: 'hour',
                     text: '1H'
                 }, {
-                    count: 10,
+                    count: 12,
                     type: 'hour',
-                    text: '10H'
+                    text: '12H'
                 }, {
                     count: 1,
                     type: 'day',
                     text: '1D'
                 }, {
+                    count: 1,
+                    type: 'week',
+                    text: '1W'
+                },{
                     type: 'all',
                     text: 'All'
                 }],
